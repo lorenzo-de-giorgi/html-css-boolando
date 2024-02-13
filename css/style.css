@@ -27,6 +27,10 @@ li{
     padding: 20px;
 }
 
+main{
+    margin-top: 100px;
+}
+
 .g-list{
     color: var(--color-background);
     text-decoration: none;
@@ -57,6 +61,7 @@ li{
     background-color: var(--color-navbar);
     position: fixed;
     width: 100%;
+    top: 0;
 }
 
 .container{
@@ -84,10 +89,6 @@ header{
     cursor: pointer;
 }
 
-.shop-image{
-    margin-top: 100px;
-}
-
 .box{
     font-weight: bold;
     font-size: 10px;
@@ -97,7 +98,7 @@ header{
 
 .box-position{
     position: absolute;
-    left: 10px;
+    left: 0;
     bottom: 50px;
 }
 
@@ -114,7 +115,7 @@ header{
 .heart{
     font-size: 1em;
     position: absolute;
-    top: 120px;
+    top: 20px;
     right: 0;
     background-color: var(--color-background);
     padding: 10px 10px;
@@ -134,3 +135,20 @@ header{
 .card:hover .h-img{
     display: block;
 }
+
+.brand{
+   font-size: 12px;
+}
+.product{
+   font-size: 18px;
+   font-weight: 600;
+}
+.price{
+   font-weight: 600;
+   color: var(--color-red);
+   font-size: 15px;
+}
+.full-price{
+   text-decoration: line-through;
+   font-size: 15px;
+}   
