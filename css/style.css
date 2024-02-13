@@ -154,4 +154,42 @@ header{
 .full-price{
    text-decoration: line-through;
    font-size: 15px;
-}   
+}
+a img{
+    vertical-align: bottom;
+}
+
+.srl{
+    margin-top: 20px;
+    padding: 30px;
+    margin-left: -10px;
+}
+
+footer{
+    background-color: var(--color-footer);
+    min-height: 100px;
+    color: var(--color-background);
+    margin-top: 20px;
+}
+
+.lg-list{
+    margin-top: -20px;
+}
+
+.lg-list a{
+    color: var(--color-background);
+    text-decoration: none;
+}
+
+.lg-list a:hover{
+    text-decoration: underline;
+}
+
+.white{
+    color: var(--color-background);
+}
+
+.contacts{
+    padding: 20px;
+    font-weight: 600;
+}
