@@ -62,11 +62,14 @@ main{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1000;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 header{
@@ -85,7 +88,7 @@ header{
 
 .card{
     position: relative;
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 30px);
     cursor: pointer;
 }
 
@@ -99,7 +102,7 @@ header{
 .box-position{
     position: absolute;
     left: 0;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 .red-badge{
