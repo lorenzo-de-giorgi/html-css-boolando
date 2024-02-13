@@ -77,3 +77,60 @@ header{
 .icon{
     color: var(--color-background);
 }
+
+.card{
+    position: relative;
+    width: calc(100% / 3 - 10px);
+    cursor: pointer;
+}
+
+.shop-image{
+    margin-top: 100px;
+}
+
+.box{
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 9px;
+    color: var(--color-background);
+}
+
+.box-position{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+}
+
+.red-badge{
+    color: var(--color-background);
+    background-color: var(--color-red);
+}
+
+.green-badge{
+    color: var(--color-background);
+    background-color: var(--color-green);
+}
+
+.heart{
+    font-size: 1em;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    background-color: var(--color-background);
+    padding: 10px 10px;
+}
+.heart:hover{
+    color: var(--color-red);
+}
+
+.h-img{
+    display: none;
+}
+
+.card:hover .main-image{
+    display: none;
+}
+
+.card:hover .h-img{
+    display: block;
+}
